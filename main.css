@@ -1,7 +1,9 @@
 .bottom{
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-color: #ddd;
     position: fixed;
     bottom: 0;
+    line-height:50px;
+    text-align:center
 }
