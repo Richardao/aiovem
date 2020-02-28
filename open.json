@@ -1,17 +1,17 @@
 [ 
     { 
-    "name":"张三", 
-    "sex":"男", 
-    "email":"zhangsan@123.com" 
+        "name":"淘宝开放平台", 
+        "url":"https://open.taobao.com/", 
+        "logo":"default.png" 
     }, 
     { 
-    "name":"李四", 
-    "sex":"男", 
-    "email":"lisi@123.com" 
+        "name":"百度开放平台", 
+        "url":"https://open.baidu.com/", 
+        "logo":"default.png" 
     }, 
     { 
-    "name":"王五", 
-    "sex":"女", 
-    "email":"wangwu@123.com" 
-    } 
+        "name":"腾讯开放平台", 
+        "url":"https://open.tencent.com/", 
+        "logo":"default.png" 
+    }
 ]

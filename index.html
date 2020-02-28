@@ -17,26 +17,10 @@
     <body>
         <div class="main">
             <div></div>
-            <ul>
+            <ul id="n">
                 <li>
-                    <a href="https://open.taobao.com/"><img src="qqq.png"/></a>
-                    <a href="https://open.taobao.com/"></a><span>淘宝开放平台</span></a>
-                </li>
-                <li>
-                    <a href="https://open.baidu.com/"></a><img src="qqq.png"/></a>
-                    <a href="https://open.baidu.com/"></a><span>百度开放平台</span></a>
-                </li>
-                <li>
-                    <a href="https://open.tencent.com/"></a><img src="qqq.png"/></a>
-                    <a href="https://open.tencent.com/"></a><span>腾讯开放平台</span></a>
-                </li>
-                <li>
-                    <a href="https://open.taobao.com/"></a><img src="qqq.png"/></a>
-                    <a href="https://open.taobao.com/"></a><span>df</span></a>
-                </li>
-                <li>
-                    <a href="https://open.taobao.com/"></a><img src="qqq.png"/></a>
-                    <a href="https://open.taobao.com/"></a><span>df</span></a>
+                    <a href="https://open.taobao.com/"><img src="logos/default.png"/></a>
+                    <a href="https://open.taobao.com/"><span>淘宝开放平台</span></a>
                 </li>
             </ul>
         </div>
@@ -54,6 +38,26 @@
                     var json = JSON.parse(request.responseText);
                     for(var i=0;i<json.length;i++){
                     	console.log(json[i].name);
+
+
+                        var li = document.createElement('li');
+                        // 添加class
+                        //li.className = 'dialog';
+                        //li.style.paddingRight = '10px';
+                        var img = document.createElement('img');
+                        img.src = 'logos/'+json[i].logo;
+                        var a1 = document.createElement('a');
+                        a1.href=json[i].url
+                        var a2 = document.createElement('a');
+                        a2.href=json[i].url
+                        var content = document.createElement('span');                        
+                        content.innerHTML = json[i].name;
+
+                        a1.appendChild(img);
+                        a2.appendChild(content);
+                        li.appendChild(a1);
+                        li.appendChild(a2);
+                        document.getElementById("n").appendChild(li);
                     }
                     console.log(json);
                 }
