@@ -18,10 +18,7 @@
         <div class="main">
             <div></div>
             <ul id="n">
-                <li>
-                    <a href="https://open.taobao.com/"><img src="logos/default.png"/></a>
-                    <a href="https://open.taobao.com/"><span>淘宝开放平台</span></a>
-                </li>
+                
             </ul>
         </div>
         <div class="bottom">
@@ -48,8 +45,10 @@
                         img.src = 'logos/'+json[i].logo;
                         var a1 = document.createElement('a');
                         a1.href=json[i].url
+                        a1.target="_blank"
                         var a2 = document.createElement('a');
                         a2.href=json[i].url
+                        a2.target="_blank"
                         var content = document.createElement('span');                        
                         content.innerHTML = json[i].name;
 
