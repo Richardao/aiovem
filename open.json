@@ -3,7 +3,17 @@
         "name":"淘宝开放平台", 
         "url":"https://open.taobao.com/", 
         "logo":"default.png" 
-    }, 
+    },
+    { 
+        "name":"支付宝开放平台", 
+        "url":"https://open.alipay.com/", 
+        "logo":"default.png" 
+    },  
+    { 
+        "name":"阿里巴巴开放平台", 
+        "url":"https://open.1688.com/", 
+        "logo":"default.png" 
+    },
     { 
         "name":"百度开放平台", 
         "url":"https://open.baidu.com/", 
@@ -12,6 +22,86 @@
     { 
         "name":"腾讯开放平台", 
         "url":"https://open.tencent.com/", 
+        "logo":"default.png" 
+    },
+    { 
+        "name":"微信开放平台", 
+        "url":"https://open.weixin.qq.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"优酷开放平台", 
+        "url":"https://open.youku.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"爱奇艺开放平台", 
+        "url":"http://open.iqiyi.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"讯飞开放平台", 
+        "url":"https://www.xfyun.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"新浪微博开放平台", 
+        "url":"https://open.weibo.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"京东开放平台", 
+        "url":"https://open.jd.com", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"苏宁开放平台", 
+        "url":"http://open.suning.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"美团点评餐饮开放平台", 
+        "url":"https://developer.meituan.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"口碑开放平台", 
+        "url":"https://open.koubei.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"饿了么开放平台", 
+        "url":"https://open.faas.ele.me/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"滴滴开放平台", 
+        "url":"http://open.xiaojukeji.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"小米开放平台", 
+        "url":"https://dev.mi.com/console/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"58同城开放平台", 
+        "url":"http://open.58.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"头条号开放平台", 
+        "url":"https://open.mp.toutiao.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"搜狗搜索开放平台", 
+        "url":"http://open.sogou.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"当当网开放平台", 
+        "url":"http://open.dangdang.com/", 
         "logo":"default.png" 
     }
 ]
