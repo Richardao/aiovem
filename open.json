@@ -103,5 +103,40 @@
         "name":"当当网开放平台", 
         "url":"http://open.dangdang.com/", 
         "logo":"default.png" 
+    }, 
+    { 
+        "name":"国美开放平台", 
+        "url":"http://opencloud.gome.com.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"OPPO开放平台", 
+        "url":"https://open.oppomobile.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"VIVO开放平台", 
+        "url":"https://dev.vivo.com.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"联想开放平台", 
+        "url":"http://open.lenovo.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"易信开放平台", 
+        "url":"http://open.yixin.im/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"哔哩哔哩游戏开放平台", 
+        "url":"http://open.biligame.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"唯品会开放平台", 
+        "url":"http://vop.vip.com/", 
+        "logo":"default.png" 
     }
 ]
