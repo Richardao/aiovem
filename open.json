@@ -183,5 +183,65 @@
         "name":"蘑菇街开放平台", 
         "url":"http://openapi.mogujie.com/", 
         "logo":"default.png" 
+    }, 
+    { 
+        "name":"萤石开放平台", 
+        "url":"https://open.ys7.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"dueros开放平台", 
+        "url":"https://dueros.baidu.com/open", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"乐橙云开放平台", 
+        "url":"https://open.lechange.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"考拉海购开放平台", 
+        "url":"https://open.kaola.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"上海市公共数据开放平台", 
+        "url":"https://data.sh.gov.cn/index.html", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"顺丰开放平台", 
+        "url":"https://open.sf-express.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"魅族开放平台", 
+        "url":"http://open.flyme.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"WPS 开放平台", 
+        "url":"https://open.wps.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"深圳市政府数据开放平台", 
+        "url":"https://opendata.sz.gov.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"韵达开放平台", 
+        "url":"https://openapi.yundaex.com/index", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"贵州省政府数据开放平台", 
+        "url":"http://data.guizhou.gov.cn/#!/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"有赞开放平台", 
+        "url":"https://open.youzan.com/", 
+        "logo":"default.png" 
     }
 ]
