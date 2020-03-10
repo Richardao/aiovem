@@ -2,7 +2,7 @@
     { 
         "name":"淘宝开放平台", 
         "url":"https://open.taobao.com/", 
-        "logo":"" 
+        "logo":"default.png" 
     },
     { 
         "name":"支付宝开放平台", 
@@ -22,226 +22,226 @@
     { 
         "name":"腾讯开放平台", 
         "url":"https://open.tencent.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     },
     { 
         "name":"微信开放平台", 
         "url":"https://open.weixin.qq.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"优酷开放平台", 
         "url":"https://open.youku.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"爱奇艺开放平台", 
         "url":"http://open.iqiyi.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"讯飞开放平台", 
         "url":"https://www.xfyun.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"新浪微博开放平台", 
         "url":"https://open.weibo.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"京东开放平台", 
         "url":"https://open.jd.com", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"苏宁开放平台", 
         "url":"http://open.suning.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"美团点评餐饮开放平台", 
         "url":"https://developer.meituan.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"口碑开放平台", 
         "url":"https://open.koubei.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"饿了么开放平台", 
         "url":"https://open.faas.ele.me/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"滴滴开放平台", 
         "url":"http://open.xiaojukeji.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"小米开放平台", 
         "url":"https://dev.mi.com/console/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"58同城开放平台", 
         "url":"http://open.58.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"头条号开放平台", 
         "url":"https://open.mp.toutiao.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"搜狗搜索开放平台", 
         "url":"http://open.sogou.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"当当网开放平台", 
         "url":"http://open.dangdang.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"国美开放平台", 
         "url":"http://opencloud.gome.com.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"OPPO开放平台", 
         "url":"https://open.oppomobile.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"VIVO开放平台", 
         "url":"https://dev.vivo.com.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"联想开放平台", 
         "url":"http://open.lenovo.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"易信开放平台", 
         "url":"http://open.yixin.im/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"哔哩哔哩游戏开放平台", 
         "url":"http://open.biligame.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"唯品会开放平台", 
         "url":"http://vop.vip.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"360移动开放平台", 
         "url":"http://dev.360.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"天眼查数据开放平台", 
         "url":"https://open.tianyancha.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"钉钉开放平台", 
         "url":"https://open.dingtalk.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"抖音开放平台", 
         "url":"https://open.douyin.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"申通开放平台", 
         "url":"https://open.sto.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"飞猪开放平台", 
         "url":"https://open.alitrip.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"虎牙直播开放平台", 
         "url":"http://open.huya.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"蜻蜓FM开放平台", 
         "url":"https://open.qingting.fm/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"蘑菇街开放平台", 
         "url":"http://openapi.mogujie.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"萤石开放平台", 
         "url":"https://open.ys7.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"dueros开放平台", 
         "url":"https://dueros.baidu.com/open", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"乐橙云开放平台", 
         "url":"https://open.lechange.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"考拉海购开放平台", 
         "url":"https://open.kaola.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"上海市公共数据开放平台", 
         "url":"https://data.sh.gov.cn/index.html", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"顺丰开放平台", 
         "url":"https://open.sf-express.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"魅族开放平台", 
         "url":"http://open.flyme.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"WPS 开放平台", 
         "url":"https://open.wps.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"深圳市政府数据开放平台", 
         "url":"https://opendata.sz.gov.cn/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"韵达开放平台", 
         "url":"https://openapi.yundaex.com/index", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"贵州省政府数据开放平台", 
         "url":"http://data.guizhou.gov.cn/#!/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"有赞开放平台", 
         "url":"https://open.youzan.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }
 ]
