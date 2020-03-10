@@ -138,5 +138,50 @@
         "name":"唯品会开放平台", 
         "url":"http://vop.vip.com/", 
         "logo":"default.png" 
+    }, 
+    { 
+        "name":"360移动开放平台", 
+        "url":"http://dev.360.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"天眼查数据开放平台", 
+        "url":"https://open.tianyancha.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"钉钉开放平台", 
+        "url":"https://open.dingtalk.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"抖音开放平台", 
+        "url":"https://open.douyin.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"申通开放平台", 
+        "url":"https://open.sto.cn/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"飞猪开放平台", 
+        "url":"https://open.alitrip.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"虎牙直播开放平台", 
+        "url":"http://open.huya.com/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"蜻蜓FM开放平台", 
+        "url":"https://open.qingting.fm/", 
+        "logo":"default.png" 
+    }, 
+    { 
+        "name":"蘑菇街开放平台", 
+        "url":"http://openapi.mogujie.com/", 
+        "logo":"default.png" 
     }
 ]
