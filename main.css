@@ -33,6 +33,13 @@
     margin-left: 3px;
 }
 
+.main ul li .img-div{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    margin-left: 3px;
+}
+
 .main ul li span{
     margin-left: 3px;
 }

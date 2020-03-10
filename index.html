@@ -26,7 +26,7 @@
         </div>
         <script>
 		window.onload = function () {
-            //var url = "http://www.aiove.com/open.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+            // var url = "http://www.aiove.com/open.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
             var url = "open.json"
             var request = new XMLHttpRequest();
             request.open("get", url);/*设置请求方法与路径*/
@@ -40,18 +40,26 @@
                         // 添加class
                         //li.className = 'dialog';
                         //li.style.paddingRight = '10px';
-                        var img = document.createElement('img');
-                        img.src = 'logos/'+json[i].logo;
                         var a1 = document.createElement('a');
                         a1.href=json[i].url
                         a1.target="_blank"
                         var a2 = document.createElement('a');
+                        if(json[i].logo && json[i].logo!=''){
+                            var img = document.createElement('img');
+                            img.src = 'logos/'+json[i].logo;
+                            a1.appendChild(img);
+                        }else{
+                            var imgDiv = document.createElement('div');
+                            imgDiv.className = 'img-div';
+                            imgDiv.style.backgroundColor = getRandomColor();
+                            a1.appendChild(imgDiv);
+                        }
+                        
                         a2.href=json[i].url
                         a2.target="_blank"
                         var content = document.createElement('span');                        
                         content.innerHTML = json[i].name;
 
-                        a1.appendChild(img);
                         a2.appendChild(content);
                         li.appendChild(a1);
                         li.appendChild(a2);
@@ -60,6 +68,16 @@
                 }
             }
        }
+
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        function getRandomColor() {
+            var c1 = getRandom(0, 255);
+            var c2 = getRandom(0, 255);
+            var c3 = getRandom(0, 255);
+            return 'rgb(' + c1 + ',' + c2 + ',' + c3 + ')'
+        }
 	</script>
     </body>
 </html>

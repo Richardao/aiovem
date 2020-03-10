@@ -2,22 +2,22 @@
     { 
         "name":"淘宝开放平台", 
         "url":"https://open.taobao.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     },
     { 
         "name":"支付宝开放平台", 
         "url":"https://open.alipay.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     },  
     { 
         "name":"阿里巴巴开放平台", 
         "url":"https://open.1688.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     },
     { 
         "name":"百度开放平台", 
         "url":"https://open.baidu.com/", 
-        "logo":"default.png" 
+        "logo":"" 
     }, 
     { 
         "name":"腾讯开放平台", 
