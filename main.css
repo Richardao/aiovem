@@ -36,6 +36,15 @@
     margin: 0px 225px;
     border-radius: 5px;
 }
+.kws-list ul{
+    margin: 0;
+    padding: 0;
+}
+.kws-list ul li{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
 .bottom{
 
     height: 50px;
@@ -82,4 +91,11 @@
 
 .main ul li span{
     margin-left: 3px;
+}
+
+.hid{
+    display: none;
+}
+.show{
+    display: block;
 }

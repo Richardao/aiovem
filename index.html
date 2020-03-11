@@ -15,18 +15,14 @@
         <link rel="stylesheet" type="text/css" href="main.css"/>
     </head>
     <body>
-        <!--
-        <div class="top">
+        <!---->
+        <div class="top" id="top">
             <div class="container">
-                <input type="text" class="kws" id="keywords"/>
-                <div class="kws-list">
-                    <ul>
-                        <li>sdfdsf</li>
-                
-                    </ul>
+                <input type="text" class="kws" id="keywords" onchange="kwchange();"/>
+                <div class="kws-list hid" id="kwslist">
                 </div>
             </div>
-        </div>-->
+        </div>
         <div class="main">
             <div></div>
             <ul id="n">
@@ -38,8 +34,8 @@
         </div>
         <script>
 		window.onload = function () {
-            var url = "http://www.aiove.com/open.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
-            // var url = "open.json"
+            // var url = "http://www.aiove.com/open.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+            var url = "open.json"
             var request = new XMLHttpRequest();
             request.open("get", url);/*设置请求方法与路径*/
             request.send(null);/*不发送数据到服务器*/
@@ -81,6 +77,33 @@
                     }
                 }
             }
+
+
+
+            // document.getElementById("top").onmouseover=function(){
+            //     document.getElementById("top").classList.remove("hid");
+            // }
+            // document.getElementById("top").onmouseout=function(){
+            //     document.getElementById("top").classList.add("hid");
+            // }
+
+            document.onmousemove=function(event){
+                if(document.getElementById("top").classList.contains('hid')==true){
+                    var x=event.clientX;
+                    var y=event.clientY;
+                    if(y<50){
+                        document.getElementById("top").classList.remove("hid");
+
+                        document.getElementById("top").onmouseout=function(){
+                            var kw = document.getElementById('keywords');
+                            if(!kw.value || kw.value==''){
+                                document.getElementById("top").classList.add("hid");
+                            }
+                        }
+                    }
+                }
+                    
+            }
        }
 
         function getRandom(min, max) {
@@ -95,12 +118,31 @@
         function search(kw){
             var storage = window.sessionStorage;  
             var json = JSON.parse(storage.getItem("open"));            
+            var ul = document.createElement('ul');
+            document.getElementById("kwslist").classList.remove("hid");
+            var index = 0;
             for(var i=0;i<json.length;i++){
-                if(json[i].name.indexOf(kw)==0){
-                    console.log(json[i].url)
+                if(json[i].name.indexOf(kw)>=0 && index<5){
+                    index++;
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
                     
+                    a.href=json[i].url;
+                    a.target="_blank";
+                    var span = document.createElement('span');                  
+                    span.innerHTML = json[i].name;
+                    a.appendChild(span);
+                    li.appendChild(a);
+                    ul.appendChild(li);
                 }
             }           
+            if(index==0){
+                document.getElementById("kwslist").innerHTML='暂无数据,请联系管理员如果可以找到的话';
+            }else{
+                document.getElementById("kwslist").innerHTML='';
+                document.getElementById("kwslist").appendChild(ul);
+            }
+            
             
         }
         document.onkeydown = function(e){
@@ -110,6 +152,39 @@
                 if(kw.value && kw.value!==''){
                     search(kw.value);
                 }
+            }
+        }
+
+        //判断鼠标滚轮滚动方向
+        if (window.addEventListener)//FF,火狐浏览器会识别该方法
+            window.addEventListener('DOMMouseScroll', wheel, false);
+        window.onmousewheel = document.onmousewheel = wheel;//W3C
+        //统一处理滚轮滚动事件
+        function wheel(event){
+            var delta = 0;
+            if (!event) event = window.event;
+            if (event.wheelDelta) {//IE、chrome浏览器使用的是wheelDelta，并且值为“正负120”
+                delta = event.wheelDelta/120; 
+                if (window.opera) delta = -delta;//因为IE、chrome等向下滚动是负值，FF是正值，为了处理一致性，在此取反处理
+            } else if (event.detail) {//FF浏览器使用的是detail,其值为“正负3”
+                delta = -event.detail/3;
+            }
+            if (delta)
+                handle(delta);
+        }
+        //上下滚动时的具体处理函数
+        function handle(delta) {
+            if (delta <0){//向下滚动
+                document.getElementById("top").classList.add("hid");
+            }else{//向上滚动
+                document.getElementById("top").classList.remove("hid");
+            }
+        }
+
+        function kwchange(){
+            var kw = document.getElementById('keywords');
+            if(!kw.value || kw.value==''){
+                document.getElementById("kwslist").classList.add("hid");
             }
         }
 	</script>
